@@ -1,0 +1,48 @@
+$color-red: #D32F2F;
+$color-dark-gray: #828282;
+$color-light-gray: #a79f9f;
+$color-blue: #2A62FF;
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    max-width: 30%;
+    padding:18px 40px 18px 12px;
+    border:1px solid $color-light-gray;
+    -webkit-border-radius: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+
+    &:hover {
+        border-color: $color-dark-gray;
+        outline: none !important;
+    }
+    &:focus {
+        border-color: $color-blue;
+        outline: none !important;
+    }
+    &.input-error {
+        border-color: $color-red !important;
+        color: $color-red !important;
+    }
+}
+
+.label-error {
+    border-color: $color-red !important;
+    color: $color-red !important;
+}
+
+
+
+label {
+    margin-bottom: 0.2em;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    &:focus {
+        color:#2A62FF;
+    }
+}
