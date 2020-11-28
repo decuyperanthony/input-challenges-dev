@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](./.github/img/button2.png)
+![screenshot](./.github/img/inputchallenge.png)
 
 React Input component with props
 
@@ -72,7 +72,7 @@ $ yarn start
 ## Usage
 ```jsx
 import React from 'react';
-import Button from 'Button';
+import Input from 'Input';
 
 const App = () => {
   return (
