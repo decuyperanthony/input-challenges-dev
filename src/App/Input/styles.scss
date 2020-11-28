@@ -10,9 +10,9 @@ $color-blue: #2A62FF;
 
     .input {
         color: $color-dark-gray;
-        max-width: 30%;
-        padding:18px 40px 18px 12px;
-        border:1px solid $color-light-gray;
+        // max-width: 30%;
+        padding: 18px 40px 18px 12px;
+        border: 1px solid $color-light-gray;
         -webkit-border-radius: 5px;
         border-radius: 8px;
         font-size: 14px;
@@ -80,7 +80,7 @@ $color-blue: #2A62FF;
     position: relative;
     // bottom: '5px'
     // bottom: 8px;
-    right: 194px;
+    right: 192px;
     top: 7px;
 }
 .input-icons {

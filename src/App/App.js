@@ -24,15 +24,15 @@ function App() {
       <Input disabled/>
 
       {/* HELPER TEXT */}
-      <div style={{display: 'flex', justifyContent: 'space-around'}}>
-        <div style={{width: '100%'}}>
+      <div className="container-display">
+        <div style={{marginRight: '1em'}}>
           <span style={{fontSize: "0.6em"}}>
           {`<Input helpingText="Some interesting text"/>`}
           <div style={{marginBottom: '0.5em'}}/>
           </span>
           <Input helpingText="Some interesting text" />
         </div>
-        <div style={{width: '100%'}}>
+        <div>
          <span style={{fontSize: "0.6em"}}>
             {`<Input helpingText="Some interesting text" error/>`}
           </span>
@@ -42,33 +42,33 @@ function App() {
       </div>
 
       {/* ICON */}
-      <div style={{display: 'flex', justifyContent: 'space-around'}}>
-        <div style={{width: '100%'}}>
+      <div className="container-display">
+        <div style={{marginRight: '1em'}}>
           <span style={{fontSize: "0.6em"}}>
           {`<Input endIcon iconValue="phone"/>`}
           </span>
           <div style={{marginBottom: '0.5em'}}/>
           <Input endIcon iconValue="phone"/>
         </div>
-        <div style={{width: '100%'}}>
+        <div>
          <span style={{fontSize: "0.6em"}}>
          {`<Input endIcon iconValue="mail"/>`}
          </span>
           <div style={{marginBottom: '0.5em'}}/>
-          <Input endIcon iconValue="password"/>
+          <Input startIcon iconValue="password"/>
         </div>
       </div>
 
       {/* SIZE */}
-      <div style={{display: 'flex', justifyContent: 'space-around'}}>
-        <div style={{width: '100%'}}>
+      <div className="container-display">
+        <div style={{marginRight: '1em'}}>
           <span style={{fontSize: "0.6em"}}>
           {`<Input size="sm"/>`}
           </span>
           <div style={{marginBottom: '0.5em'}}/>
           <Input size="sm"/>
         </div>
-        <div style={{width: '100%'}}>
+        <div>
          <span style={{fontSize: "0.6em"}}>
          {`<Input size="md"/>`}
          </span>

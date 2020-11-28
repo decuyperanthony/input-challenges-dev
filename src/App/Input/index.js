@@ -88,7 +88,7 @@ const Input = (props) => {
         <form>
         <div className={`form-group ${inputIconClass}`}>
             {helpingTextJSX}
-            <div>
+            <span>
                 <input
                     className={`input input-${errorclass}
                         ${disabledclass} ${paddingPlaceholderIcon}
@@ -100,7 +100,7 @@ const Input = (props) => {
                     name="nom"
                 />
                 {startIconJSX}
-            </div>
+            </span>
              <label
                 className={`label label-${errorclass}`}
             >
