@@ -77,11 +77,11 @@ $color-blue: #2A62FF;
 //! --------- ICON ----------
 
 .input-icons .icon {
-    position: absolute;
+    position: relative;
     // bottom: '5px'
     // bottom: 8px;
-    left: 16px;
-    top: 34px
+    right: 194px;
+    top: 7px;
 }
 .input-icons {
     position: relative;
@@ -100,5 +100,5 @@ $color-blue: #2A62FF;
 }
 
 .icon-end {
-    left: 180px !important;
+    right: 40px !important;
 }

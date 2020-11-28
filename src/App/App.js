@@ -45,10 +45,10 @@ function App() {
       <div style={{display: 'flex', justifyContent: 'space-around'}}>
         <div style={{width: '100%'}}>
           <span style={{fontSize: "0.6em"}}>
-          {`<Input startIcon iconValue="phone"/>`}
+          {`<Input endIcon iconValue="phone"/>`}
           </span>
           <div style={{marginBottom: '0.5em'}}/>
-          <Input startIcon iconValue="phone"/>
+          <Input endIcon iconValue="phone"/>
         </div>
         <div style={{width: '100%'}}>
          <span style={{fontSize: "0.6em"}}>

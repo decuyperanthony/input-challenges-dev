@@ -88,17 +88,19 @@ const Input = (props) => {
         <form>
         <div className={`form-group ${inputIconClass}`}>
             {helpingTextJSX}
-            <input
-                className={`input input-${errorclass}
-                    ${disabledclass} ${paddingPlaceholderIcon}
-                    ${sizeClass} ${fullWidthClass}
-                `}
-                disabled={disabled}
-                type="text"
-                placeholder={valuePlaceholder ? valuePlaceholder : "Placeholder"}
-                name="nom"
-            />
-            {startIconJSX}
+            <div>
+                <input
+                    className={`input input-${errorclass}
+                        ${disabledclass} ${paddingPlaceholderIcon}
+                        ${sizeClass} ${fullWidthClass}
+                    `}
+                    disabled={disabled}
+                    type="text"
+                    placeholder={valuePlaceholder ? valuePlaceholder : "Placeholder"}
+                    name="nom"
+                />
+                {startIconJSX}
+            </div>
              <label
                 className={`label label-${errorclass}`}
             >

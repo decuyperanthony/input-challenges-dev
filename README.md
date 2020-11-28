@@ -76,7 +76,7 @@ import Input from 'Input';
 
 const App = () => {
   return (
-    <Input size="lg" error />
+    <Input size="sm" error />
   )
 };
 
@@ -86,13 +86,13 @@ export default App;
 |Prop name        |Type          |value     |Default            |Description
 |-----------------|------------|-------|-------------------|--------------------------------
 |size         | `string`    |`'sm' `      | `'md'`  | Size of the button
-|error        | `boolean`  | |    `'true'`               | Set error Class to input
+|error        | `boolean`  | |    `true`               | Set error Class to input
 |iconValue        | `string`  | |    `'mail', 'password' 'phone'`               | Disabled shadow of the button
 |startIcon, endIcon        | `boolean`  | |                  | Add position icon to the button
-|disabled        | `boolean`  | |    `'true' `               | Disabled the button
-|fullwidth        | `boolean`  | |    `'true' `               | full width
-|value        | `string`  | |    `'anything you want' `               | set the place holder value
-|helpingText        | `string`  | |    `'anything you want' `               | set a helper text at the bottom of the input
+|disabled        | `boolean`  | |    `true `               | Disabled the button
+|fullwidth        | `boolean`  | |    `true `               | full width
+|value        | `string`  | |    `'*' `               | set the place holder value
+|helpingText        | `string`  | |    `'*' `               | set a helper text at the bottom of the input
 
 
 
