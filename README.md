@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://anthonydecuyper-challenge-input.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -82,14 +82,17 @@ const App = () => {
 
 export default App;
 ```
-<!-- ## Props
+## Props
 |Prop name        |Type          |value     |Default            |Description
 |-----------------|------------|-------|-------------------|--------------------------------
-|size         | `string`    |`'xs' 'md' 'lg'`      | `'md'`  | Size of the button
-|variant        | `string`  |`'primary' 'secondary' 'danger' 'outline' 'text' 'default'`     |    `'default'`               | Color and variant of the button
-|shadow        | `string`  | |    `'disbaledShadow'`               | Disabled shadow of the button
-|startIcon, endIcon        | `string`  | |    `'local_grocery_store'`               | Add icon in the button
-|isDisabled        | `boolean`  | |    `'true' 'false'`               | Disabled the button -->
+|size         | `string`    |`'sm' `      | `'md'`  | Size of the button
+|error        | `boolean`  | |    `'true'`               | Set error Class to input
+|iconValue        | `string`  | |    `'mail', 'password' 'phone'`               | Disabled shadow of the button
+|startIcon, endIcon        | `boolean`  | |                  | Add position icon to the button
+|disabled        | `boolean`  | |    `'true' `               | Disabled the button
+|fullwidth        | `boolean`  | |    `'true' `               | full width
+|value        | `string`  | |    `'anything you want' `               | set the place holder value
+|helpingText        | `string`  | |    `'anything you want' `               | set a helper text at the bottom of the input
 
 
 
