@@ -28,8 +28,8 @@ function App() {
         <div style={{marginRight: '1em'}}>
           <span style={{fontSize: "0.6em"}}>
           {`<Input helpingText="Some interesting text"/>`}
-          <div style={{marginBottom: '0.5em'}}/>
           </span>
+          <div style={{marginBottom: '0.5em'}}/>
           <Input helpingText="Some interesting text" />
         </div>
         <div>
@@ -47,14 +47,14 @@ function App() {
           <span style={{fontSize: "0.6em"}}>
           {`<Input endIcon iconValue="phone"/>`}
           </span>
-          <div style={{marginBottom: '0.5em'}}/>
+          {/* <div style={{marginBottom: '0.5em'}}/> */}
           <Input endIcon iconValue="phone"/>
         </div>
         <div>
          <span style={{fontSize: "0.6em"}}>
          {`<Input endIcon iconValue="mail"/>`}
          </span>
-          <div style={{marginBottom: '0.5em'}}/>
+          {/* <div style={{marginBottom: '0.5em'}}/> */}
           <Input startIcon iconValue="password"/>
         </div>
       </div>
