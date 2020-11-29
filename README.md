@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](./.github/img/inputchallenge.png)
+![screenshot](./.github/img/inputchall.png)
 
 React Input component with props
 
