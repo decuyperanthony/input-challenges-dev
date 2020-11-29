@@ -27,9 +27,11 @@ const Input = (props) => {
     }
 
     //! FULL WIDTH
-    let fullWidthClass = "";
+    let fullWidthInputClass = "";
+    let fullWidthSpanClass = "";
     if (fullWidth) {
-        fullWidthClass = "full-width";
+        fullWidthInputClass = "full-width";
+        fullWidthSpanClass = "full-span-width";
     }
     //! DISABLED
     let disabledclass = "";
@@ -85,29 +87,32 @@ const Input = (props) => {
 
     return (
         <div>
-        <form>
-        <div className={`form-group ${inputIconClass}`}>
-            {helpingTextJSX}
-            <span>
-                <input
-                    className={`input input-${errorclass}
-                        ${disabledclass} ${paddingPlaceholderIcon}
-                        ${sizeClass} ${fullWidthClass}
-                    `}
-                    disabled={disabled}
-                    type="text"
-                    placeholder={valuePlaceholder ? valuePlaceholder : "Placeholder"}
-                    name="nom"
-                />
-                {startIconJSX}
-            </span>
-             <label
-                className={`label label-${errorclass}`}
-            >
-                Label
-            </label>
-        </div>
-        </form>
+            <form>
+                <div className={`form-group ${inputIconClass}`}>
+                    <span
+                    className={`${fullWidthSpanClass}`}
+                    style={{display: 'flex', flexDirection: "column-reverse", position: 'relative'}}>
+                        {helpingTextJSX}
+                        <input
+                            className={`input input-${errorclass}
+                                ${disabledclass} ${paddingPlaceholderIcon}
+                                ${sizeClass} ${fullWidthInputClass}
+                            `}
+                            disabled={disabled}
+                            type="text"
+                            placeholder={valuePlaceholder ? valuePlaceholder : "Placeholder"}
+                            name="nom"
+                        />
+                        {startIconJSX}
+
+                        <label
+                        className={`label label-${errorclass}`}
+                        >
+                            Label
+                        </label>
+                    </span>
+                </div>
+            </form>
         </div>
     )
 }
